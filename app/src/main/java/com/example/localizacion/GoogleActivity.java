@@ -124,6 +124,7 @@ public class GoogleActivity extends FragmentActivity implements OnMapReadyCallba
 
     }
 
+    //Convierte un vector asset a un bitmap para agregar al marcador
     public BitmapDescriptor bitmapDescriptorFromVector(Context context, int vectorResId) {
         Drawable vectorDrawable = ContextCompat.getDrawable(context, vectorResId);
         vectorDrawable.setBounds(0, 0, vectorDrawable.getIntrinsicWidth(),
