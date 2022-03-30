@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Localizacion</string>
+    <string name="title_activity_google">GoogleActivity</string>
 </resources>

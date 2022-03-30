@@ -13,4 +13,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Simple location" />
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google" />
+
+    <Button
+        android:id="@+id/osm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OSM" />
 </LinearLayout>
